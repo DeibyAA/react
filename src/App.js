@@ -1,10 +1,12 @@
+import React from "react";
 import App from "./App.css";
-import Sumar from "./pages/sumar";
+//import Sumar from "./pages/sumar";
+import Calculator from "./pages/calculadora/calculator.jsx";
 
 const Index = () => {
   return (
-  <Sumar />
-  
+    <Calculator />
+  //<Sumar />
   );
 };
 
